@@ -1,0 +1,131 @@
+/*საერთო*/
+.d-nav, .nav,
+.d-header, .d-main, .d-footer, .f-block
+{
+	display: flex;
+}
+
+.col img,
+.coltitle,
+.coltext,
+.textblock,
+.textmain,
+.textsky,
+.text,
+.footerbutton,
+.t-block p,
+.button,
+.col span,
+.col p{
+	padding: 3%;
+}
+
+.textmain,
+.t-block h1,
+.logo{
+	font-size: 45px;
+}
+.nav li:hover,
+.footerbutton:hover
+{
+	background-color: blue;
+}
+.line{
+	border-right: 1px solid #3d3d29;
+}
+
+/*<...................>*/
+.logo{
+	border-right:1px solid #3d3d29 ;
+}
+.d-nav{
+	background-color: #ffe6ff;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid#3d3d29;
+}
+
+.nav{
+	padding-left: 35%;
+	font-size: 20px;
+	text-transform: uppercase;
+	align-items: center;
+}
+.nav li{
+	padding-left: 3%;
+}
+.d-header{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.nav li:hover{
+	background-color: blue;
+}
+.title{
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 5%;
+	
+}
+.container{
+	background-color: #e6ffff;
+	padding: 5%;
+}
+.col{
+	background-color: white;	
+}
+.coltitle{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+
+
+/*....*/
+.d-main{
+	padding: 5%;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.bagblock{
+padding-left: 5%;
+}
+
+.text{
+	width: 450px;
+	padding-left: 5%;
+}
+.menblock{
+	background-image: url("../img/11.jpg");
+ width: 700px;
+ height: 300px;
+ object-fit: contain;
+ text-align: center;
+ font-size: 25px;
+}
+.womenblock{
+background-image: url("../img/22.jpg");
+width: 700px;
+height: 300Px;
+object-fit: contain;
+text-align: center;
+font-size: 25px;
+}
+
+.burger-nav{
+	display: none;
+}
+/*f-block*/
+.f-block{
+	padding: 2%;
+}
+.f-block span{
+	padding-left: 2%;
+}
+.t-block{
+	padding: 8%;
+}
+.footerbutton{
+	border-bottom: 2px solid black;
+}
